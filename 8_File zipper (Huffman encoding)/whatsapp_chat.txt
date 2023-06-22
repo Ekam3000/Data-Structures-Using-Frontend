@@ -1,0 +1,1138 @@
+13/03/23, 10:33 pm - Messages and calls are end-to-end encrypted. No one outside of this chat, not even WhatsApp, can read or listen to them. Tap to learn more.
+17/03/23, 6:48 pm - Ekam 🤍: https://www.instagram.com/reel/CmQeHkWAmuU/?igshid=YmMyMTA2M2Y=
+21/03/23, 9:42 pm - Ekam 🤍: Ye harr grp me
+21/03/23, 9:42 pm - Ekam 🤍: Form bharne ke links kyu aa rahe
+21/03/23, 9:43 pm - Ekam 🤍: Bacche bhej rahe
+21/03/23, 9:43 pm - Ekam 🤍: Google forms
+21/03/23, 9:44 pm - Nipun Garg: Innovation
+23/03/23, 11:36 am - Nipun Garg: Sunn
+23/03/23, 11:37 am - Nipun Garg: Tumrahe ds ka kon aaya hai teacher
+23/03/23, 11:45 am - Ekam 🤍: Vishwas rathi
+23/03/23, 11:46 am - Nipun Garg: Kaise hai
+23/03/23, 11:49 am - Nipun Garg: This message was deleted
+23/03/23, 11:50 am - Ekam 🤍: Mast hai
+23/03/23, 11:50 am - Ekam 🤍: Acha padhata
+23/03/23, 11:50 am - Nipun Garg: Okk
+24/03/23, 11:16 am - Ekam 🤍: https://docs.google.com/forms/d/e/1FAIpQLSeVPiGeZQkMQF-ivvTNo26J9fD5V3Tf0vebEb6Vp6SBp5pMow/viewform
+We are a group of dedicated students who are working on developing a job portal specifically for Thapar students. We would appreciate it if you could take the time to complete this Google form. We are attempting to create a solution for students' placement and internship needs. We will address all of the concerns and issues that students are currently experiencing, as well as provide a variety of other helpful features.
+24/03/23, 11:16 am - Ekam 🤍: Isse sahi se bharde achi input dena
+26/03/23, 10:40 pm - Nipun Garg: <Media omitted>
+26/03/23, 10:40 pm - Nipun Garg: <Media omitted>
+03/04/23, 9:30 pm - Ekam 🤍: <Media omitted>
+07/04/23, 10:34 am - Nipun Garg: Samarjot.vcf (file attached)
+07/04/23, 3:01 pm - Nipun Garg: <Media omitted>
+07/04/23, 3:01 pm - Nipun Garg: <Media omitted>
+07/04/23, 3:01 pm - Nipun Garg: <Media omitted>
+07/04/23, 3:35 pm - Nipun Garg: <Media omitted>
+08/04/23, 12:26 am - Ekam 🤍: <Media omitted>
+08/04/23, 12:26 am - Ekam 🤍: <Media omitted>
+08/04/23, 12:02 pm - Ekam 🤍: <Media omitted>
+08/04/23, 12:02 pm - Ekam 🤍: <Media omitted>
+08/04/23, 12:02 pm - Ekam 🤍: <Media omitted>
+08/04/23, 12:02 pm - Ekam 🤍: <Media omitted>
+08/04/23, 12:02 pm - Ekam 🤍: <Media omitted>
+08/04/23, 12:02 pm - Ekam 🤍: <Media omitted>
+08/04/23, 12:03 pm - Ekam 🤍: Sorry
+08/04/23, 12:03 pm - Nipun Garg: Shabash
+08/04/23, 4:20 pm - Nipun Garg: #include <iostream>
+#include <vector>
+#include <cstring>
+using namespace std;
+
+const int INF = 100000000;
+
+bool move(int a, int b, int c, int d, vector<vector<int>>& dp) {
+    // memoizing is here
+    if (dp[a][b] != -1) {
+        return dp[a][b];
+    }
+    dp[a][b] = INF;
+    if (a == c && b == d) {
+        return true;
+    }
+    else if (a > c || b > d) {
+        return false;
+    }
+    else {
+        bool ans = false;
+        if (move(a+b, b, c, d, dp)) {
+            ans = true;
+        }
+        if (move(a, a+b, c, d, dp)) {
+            ans = true;
+        }
+        dp[a][b] = ans;
+    }
+    return dp[a][b];
+}
+
+int main() {
+    int n = 1001, m = 1001;
+    vector<vector<int>> dp(n, vector<int>(m, -1));
+    int a = 1, b = 2, c = 3, d = 6;
+    bool ans = move(a, b, c, d, dp);
+    cout << ans << endl;
+    return 0;
+}
+
+
+
+ye Is Possible wala, chal raha hai acche se
+08/04/23, 4:20 pm - Nipun Garg: <Media omitted>
+08/04/23, 4:20 pm - Nipun Garg: <Media omitted>
+08/04/23, 4:20 pm - Nipun Garg: <Media omitted>
+08/04/23, 4:24 pm - Ekam 🤍: <Media omitted>
+08/04/23, 4:24 pm - Ekam 🤍: <Media omitted>
+08/04/23, 4:24 pm - Ekam 🤍: <Media omitted>
+08/04/23, 5:22 pm - Nipun Garg: <Media omitted>
+08/04/23, 5:22 pm - Nipun Garg: <Media omitted>
+08/04/23, 5:22 pm - Nipun Garg: <Media omitted>
+08/04/23, 5:22 pm - Nipun Garg: <Media omitted>
+08/04/23, 5:22 pm - Nipun Garg: <Media omitted>
+08/04/23, 5:22 pm - Nipun Garg: <Media omitted>
+08/04/23, 5:22 pm - Nipun Garg: <Media omitted>
+08/04/23, 5:22 pm - Nipun Garg: <Media omitted>
+08/04/23, 5:22 pm - Nipun Garg: <Media omitted>
+08/04/23, 5:22 pm - Nipun Garg: <Media omitted>
+08/04/23, 10:13 pm - Nipun Garg: Game Winner Code 
+Python
+JP Morgan (JPMC)
+https://telegram.me/PLACEMENTLELO
+
+def gameWinner(colors):
+    currPlayer = "wendy"
+    prevPlayer = ""
+    winner = ""
+
+    while True:
+        moveMade = False
+        if currPlayer == "wendy":
+            whiteIndex = colors.find("www")
+            if whiteIndex = -1:
+                # 3 consecutive whites found, remove the middle one
+                colorsBuilder = list(colors)
+                colorsBuilder.pop(whiteIndex + 1)
+                colors = "".join(colorsBuilder)
+                moveMade = True
+                prevPlayer = currPlayer
+                currPlayer = "bob"
+        else:
+            blackIndex = colors.find("bbb")
+            if blackIndex != -1:
+                # 3 consecutive blacks found, remove the middle one
+                colorsBuilder = list(colors)
+                colorsBuilder.pop(blackIndex + 1)
+                colors = "".join(colorsBuilder)
+                moveMade = True
+                prevPlayer = currPlayer
+                currPlayer = "wendy"
+
+        # if no moves possible break
+        if not moveMade:
+            winner = prevPlayer
+            break
+
+    return winner
+print(gameWinner("wwwbb"))
+
+Game Winner Code 
+Python
+JP Morgan (JPMC)
+https://telegram.me/PLACEMENTLELO
+08/04/23, 10:13 pm - Nipun Garg: Is Possible Code 
+C++
+JP Morgan (JPMC)
+https://telegram.me/PLACEMENTLELO
+
+#include <iostream>
+#include <vector>
+#include <cstring>
+using namespace std;
+
+const int INF = 100000000;
+
+bool move(int a, int b, int c, int d, vector<vector<int>>& dp) {
+
+    if (dp[a][b] != -1) {
+        return dp[a][b];
+    }
+    dp[a][b] = INF;
+    if (a == c && b == d) {
+        return true;
+    }
+    else if (a > c || b > d) {
+        return false;
+    }
+    else {
+        bool ans = false;
+        if (move(a+b, b, c, d, dp)) {
+            ans = true;
+        }
+        if (move(a, a+b, c, d, dp)) {
+            ans = true;
+        }
+        dp[a][b] = ans;
+    }
+    return dp[a][b];
+}
+
+int main() {
+    int n = 1001, m = 1001;
+    vector<vector<int>> dp(n, vector<int>(m, -1));
+    int a = 1, b = 2, c = 3, d = 6;
+    bool ans = move(a, b, c, d, dp);
+    cout << ans << endl;
+    return 0;
+}
+
+
+
+Is Possible Code 
+C++
+JP Morgan (JPMC)
+https://telegram.me/PLACEMENTLELO
+08/04/23, 10:13 pm - Nipun Garg: Game Winner Code 
+C++
+JP Morgan (JPMC)
+https://telegram.me/PLACEMENTLELO
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    string s;
+    cin>>s;
+    int i;
+    int countw = 0,countb = 0;
+    int countw1 = 0,countb1 = 0;
+    i = 0;
+    char f = s[0];
+    while(i<s.length())
+    {
+        while(f == 'w')
+        {
+            countw++;
+            if(s[i+1]!='w')
+            {
+                f = 'b';
+            }
+            i++;
+          
+        }
+        while(f == 'b')
+        {
+            countb++;
+            if(s[i+1]!='b')
+            {
+                f = 'w';
+            }
+            i++;
+            
+        }
+        if(countw>2)
+        {
+            countw1 = countw1 + (countw-2);
+            countw = 0;
+        }
+        if(countb>2)
+        {
+            countb1 = countb1 + (countb-2);
+            countb = 0;
+            
+        }
+        countw =0;
+        countb=0;
+    }
+  
+    if(countb1>=countw1)
+    {
+        cout<<"Black";
+    }
+    else
+    {
+        cout<<"White";
+    }
+    return 0;
+}
+
+Game Winner Code 
+C++
+JP Morgan (JPMC)
+https://telegram.me/PLACEMENTLELO
+08/04/23, 10:13 pm - Nipun Garg: Count Highly Profitable Months Code
+C++
+JP Morgan (JPMC)
+https://telegram.me/PLACEMENTLELO
+
+#include <stdio.h>
+
+int countHighlyProfitableMonths(int stockPrices[], int n, int k) {
+    int count = 0; // counter for highly profitable intervals
+
+    for (int i = 0; i <= n - k; i++) {
+        int strictlyIncreasing = 1; // flag to indicate if prices are strictly increasing
+        for (int j = i + 1; j < i + k; j++) {
+            if (stockPrices[j] <= stockPrices[j - 1]) {
+                strictlyIncreasing = 0; // not strictly increasing, set flag to 0
+                break;
+            }
+        }
+        if (strictlyIncreasing) {
+            count++; // increment count if prices are strictly increasing for k months
+        }
+    }
+
+    return count;
+}
+
+int main() {
+    int stockPrices[] = {5, 3, 5, 7, 8};
+    int n = sizeof(stockPrices) / sizeof(stockPrices[0]);
+    int k = 3;
+
+    int count = countHighlyProfitableMonths(stockPrices, n, k);
+    printf("Number of highly profitable intervals: %d\n", count);
+
+    return 0;
+}
+
+Count Highly Profitable Months Code
+C++
+JP Morgan (JPMC)
+https://telegram.me/PLACEMENTLELO
+08/04/23, 10:13 pm - Nipun Garg: Longest Even Code
+Java
+JP Morgan (JPMC)
+https://telegram.me/PLACEMENTLELO
+
+import java.util.Scanner;
+import java.util.ArrayList;
+
+public class LongestEvenWord {
+
+    public static void main(String[] args) {
+        Scanner myObj = new Scanner(System.in);  
+        String inn = myObj.nextLine();  
+        String result = LongestEvenWords(inn);
+        System.out.println(result);
+    }
+
+    public static String LongestEvenWords(String sentence) {
+        String words = "";
+        String[] word = sentence.split(" ");
+        ArrayList<String> evenWords = new ArrayList<>();
+        for(String ev:word) {
+            if(ev.length() % 2 == 0){
+                evenWords.add(ev);
+            }
+        }
+        if(evenWords.isEmpty()){
+            words="00";
+        } else {
+            for (String wd : evenWords) {
+                if (words.length() < wd.length()) {
+                    words = wd;
+                }
+            }
+        }
+        if(sentence == "") {
+            words = "00";
+        }
+        return words;
+
+    }
+}
+
+
+Longest Even Code
+Java
+JP Morgan (JPMC)
+https://telegram.me/PLACEMENTLELO
+08/04/23, 10:13 pm - Nipun Garg: Break Palindrome
+Java
+JP Morgan (JPMC)
+https://telegram.me/PLACEMENTLELO
+
+public String breakPalindrome(String palindrome) { 
+        char[] palindromeArray = palindrome.toCharArray(); 
+
+        if (palindrome.length() == 1) { 
+            return ""; 
+        } 
+             
+        for (int i = 0; i < palindrome.length() / 2 ; i++){ 
+           if (palindromeArray[i] != 'a') { 
+               palindromeArray[i] = 'a'; 
+               return String.valueOf(palindromeArray); 
+           } 
+        } 
+
+        palindromeArray[palindrome.length() - 1] = 'b'; 
+        return String.valueOf(palindromeArray); 
+    }
+
+Break Palindrome
+Java
+JP Morgan (JPMC)
+https://telegram.me/PLACEMENTLELO
+08/04/23, 10:13 pm - Nipun Garg: Break Palindrome
+C++
+JP Morgan (JPMC)
+https://telegram.me/PLACEMENTLELO
+
+class Solution { public:
+  string breakPalindrome(string palindrome) {    if (palindrome.length() == 1)
+      return "";
+    for (int i = 0; i < palindrome.length() / 2; ++i)      if (palindrome[i] != 'a') {
+        palindrome[i] = 'a';        return palindrome;
+      }
+    palindrome.back() = 'b';    return palindrome;
+  }};
+
+Break Palindrome
+C++
+JP Morgan (JPMC)
+https://telegram.me/PLACEMENTLELO
+08/04/23, 10:13 pm - Nipun Garg: Count Highly Profitable Months Code
+C++
+JP Morgan (JPMC)
+https://telegram.me/PLACEMENTLELO
+
+int fn(vector<int>arr,int k){
+    int n=arr.size();
+    if(k==0||k>n) return 0;
+    int ans=0;
+    vector<int> preCompute(n,-1);
+    int i=0;
+    int curr=0;
+    while(i<n-1){
+        if(arr[i+1]>arr[i]) curr++;
+        else{
+            preCompute[i-curr]=curr+1;
+            curr=0;
+        }
+        i++;
+    }
+    preCompute[i-curr]=curr+1;
+    for(int i=0;i<n;i++){
+        if(preCompute[i]!=-1&&preCompute[i]>=k) ans+=preCompute[i]-k+1;
+    }
+return ans;
+}
+
+
+Count Highly Profitable Months Code
+C++
+JP Morgan (JPMC)
+https://telegram.me/PLACEMENTLELO
+09/04/23, 3:44 pm - Nipun Garg: Count Highly Profitable Months Code
+C++
+JP Morgan (JPMC)
+https://telegram.me/PLACEMENTLELO
+
+#include <stdio.h>
+
+int countHighlyProfitableMonths(int stockPrices[], int n, int k) {
+    int count = 0; // counter for highly profitable intervals
+
+    for (int i = 0; i <= n - k; i++) {
+        int strictlyIncreasing = 1; // flag to indicate if prices are strictly increasing
+        for (int j = i + 1; j < i + k; j++) {
+            if (stockPrices[j] <= stockPrices[j - 1]) {
+                strictlyIncreasing = 0; // not strictly increasing, set flag to 0
+                break;
+            }
+        }
+        if (strictlyIncreasing) {
+            count++; // increment count if prices are strictly increasing for k months
+        }
+    }
+
+    return count;
+}
+
+int main() {
+    int stockPrices[] = {5, 3, 5, 7, 8};
+    int n = sizeof(stockPrices) / sizeof(stockPrices[0]);
+    int k = 3;
+
+    int count = countHighlyProfitableMonths(stockPrices, n, k);
+    printf("Number of highly profitable intervals: %d\n", count);
+
+    return 0;
+}
+
+Count Highly Profitable Months Code
+C++
+JP Morgan (JPMC)
+https://telegram.me/PLACEMENTLELO
+09/04/23, 3:46 pm - Ekam 🤍: Count Highly Profitable Months Code
+C++
+JP Morgan (JPMC)
+https://telegram.me/PLACEMENTLELO
+
+#include <stdio.h>
+
+int countHighlyProfitableMonths(int stockPrices[], int n, int k) {
+    int count = 0; // counter for highly profitable intervals
+
+    for (int i = 0; i <= n - k; i++) {
+        int strictlyIncreasing = 1; // flag to indicate if prices are strictly increasing
+        for (int j = i + 1; j < i + k; j++) {
+            if (stockPrices[j] <= stockPrices[j - 1]) {
+                strictlyIncreasing = 0; // not strictly increasing, set flag to 0
+                break;
+            }
+        }
+        if (strictlyIncreasing) {
+            count++; // increment count if prices are strictly increasing for k months
+        }
+    }
+
+    return count;
+}
+
+int main() {
+    int stockPrices[] = {5, 3, 5, 7, 8};
+    int n = sizeof(stockPrices) / sizeof(stockPrices[0]);
+    int k = 3;
+
+    int count = countHighlyProfitableMonths(stockPrices, n, k);
+    printf("Number of highly profitable intervals: %d\n", count);
+
+    return 0;
+}
+
+Count Highly Profitable Months Code
+C++
+JP Morgan (JPMC)
+https://telegram.me/PLACEMENTLELO
+09/04/23, 4:47 pm - Nipun Garg: #include <iostream>
+#include <set>
+#include <vector>
+#include <unordered_map>
+using namespace std;
+int main()
+{
+    string s = "my name is abc is";
+    string t = "name abc";
+    vector<string> ss;
+    string s1 = "";
+    for (int i = 0; i < s.length(); i++)
+    {
+        if (s[i] == ' ')
+        {
+            ss.push_back(s1);
+            s1 = "";
+        }
+        else
+        {
+            s1 = s1 + s[i];
+        }
+    }
+    ss.push_back(s1);
+    vector<string> tt;
+    string t1 = "";
+    for (int i = 0; i < t.length(); i++)
+    {
+        if (t[i] == ' ')
+        {
+            tt.push_back(t1);
+            t1 = "";
+        }
+        else
+        {
+            t1 = t1 + t[i];
+        }
+    }
+    tt.push_back(t1);
+    for (auto i : ss)
+    {
+        cout << i << endl;
+    }
+    cout << endl;
+    for (auto i : tt)
+    {
+        cout << i << endl;
+    }
+    cout << endl;
+    cout << endl;
+    unordered_map<string, int> um;
+    for (auto i : ss)
+    {
+        um[i]++;
+    }
+    vector<pair<string, pair<int, int>>> pp;
+    vector<string> ss1;
+    for (auto i : ss)
+    {
+        pp.push_back({i, {um[i], 1}});
+    }
+    for (auto i : tt)
+    {
+        for (int j = 0; j < pp.size(); j++)
+        {
+            if (pp[j].first == i)
+            {
+                if (pp[j].second.first > 1)
+                {
+                    pp[j].second.second = 1;
+                }
+                else
+                {
+                    cout << "yes" << pp[j].first << endl;
+                    pp[j] = {pp[j].first, {pp[j].second.first, 0}};
+                }
+            }
+        }
+    }
+    // for(auto i:pp){
+    //     cout<<i.first<<" "<<i.second.first<<" "<<i.second.second<<endl;
+    // }
+    set<string> ans;
+    for (auto i : pp)
+    {
+        if (i.second.second == 1)
+        {
+            ans.insert(i.first);
+        }
+    }
+    for (auto i : ans)
+    {
+        cout << i << " ";
+    }
+    return 0;
+}
+09/04/23, 9:10 pm - Ekam 🤍: vector<string> areAlmostEquivalent(vector<string> s, vector<string> t) {
+
+	vector<string> result;
+
+	for (int strIdx = 0; strIdx < s.size(); strIdx++) {
+		int countAlpa_s[27] = { 0, };
+		int countAlpa_t[27] = { 0, };
+
+		for (int charIdx = 0; charIdx < s[strIdx].size(); charIdx++)
+			countAlpa_s[s[strIdx][charIdx] - 'a']++;
+
+		for (int charIdx = 0; charIdx < t[strIdx].size(); charIdx++)
+			countAlpa_t[t[strIdx][charIdx] - 'a']++;
+
+		int alpaIdx = 0;
+		for (; alpaIdx< 26; alpaIdx++)
+			if (abs(countAlpa_s[alpaIdx] - countAlpa_t[alpaIdx]) > 3) break;
+
+		alpaIdx == 26 ? result.push_back("YES") : result.push_back("NO");
+	}
+	return result;
+
+}
+17/04/23, 2:25 pm - Ekam 🤍: Kab dega ?
+17/04/23, 2:29 pm - Nipun Garg: Shyam ko hi deta?
+17/04/23, 2:30 pm - Nipun Garg: Kahan dena room ya lib
+Jitesh bhi puch raha tha
+17/04/23, 2:30 pm - Nipun Garg: Room mai bolta net bhi nahi chal raha sahi se
+17/04/23, 2:30 pm - Ekam 🤍: Haaa
+17/04/23, 2:31 pm - Ekam 🤍: Yr mujhe kha hai
+17/04/23, 2:31 pm - Ekam 🤍: 6 bje se pehle dena
+17/04/23, 2:32 pm - Nipun Garg: Kisne?
+17/04/23, 2:32 pm - Ekam 🤍: Vidhisha ne
+17/04/23, 2:32 pm - Nipun Garg: Mujha bhi bande ne aise same bola haii
+17/04/23, 2:32 pm - Nipun Garg: 6 bje ka kya hisab hua vaise?
+17/04/23, 2:32 pm - Ekam 🤍: Yr mere 3'30 lab khatam hogi
+17/04/23, 2:32 pm - Ekam 🤍: Hum 3'30 milte hai
+17/04/23, 2:32 pm - Ekam 🤍: Aur 4 bje de det ahi
+17/04/23, 2:33 pm - Ekam 🤍: Tum tab tak jugaad lgalo kesa dena
+17/04/23, 2:33 pm - Nipun Garg: Yrr mai na abhi khud se video bna kr dekh raha tha
+17/04/23, 2:33 pm - Nipun Garg: Saaf idea ho raha hai ki dhek ke bolta
+17/04/23, 2:33 pm - Ekam 🤍: Yr vo seniors hai
+17/04/23, 2:33 pm - Ekam 🤍: Jp me
+17/04/23, 2:33 pm - Ekam 🤍: Usne kha tha
+17/04/23, 2:33 pm - Nipun Garg: Face gesture se pta chal raha ha saaf
+17/04/23, 2:33 pm - Ekam 🤍: 🥲
+17/04/23, 2:33 pm - Nipun Garg: Dena room mai hai ya lib
+17/04/23, 2:34 pm - Ekam 🤍: To raat le kya vo do questions
+17/04/23, 2:34 pm - Nipun Garg: Yrr bilkul parallel rakh ke bhi dhek liya
+17/04/23, 2:34 pm - Nipun Garg: Acha se yaad hi karna pdega nahi toh on the spot bolo
+17/04/23, 2:34 pm - Ekam 🤍: Radhika se pouch yr
+17/04/23, 2:34 pm - Ekam 🤍: Vo jugaad lagati
+17/04/23, 2:34 pm - Ekam 🤍: Acha
+17/04/23, 2:34 pm - Nipun Garg: Puchta hun usse
+17/04/23, 2:34 pm - Nipun Garg: Vaise yaad vgara karna pdega nahi to on the spot bolo
+17/04/23, 2:35 pm - Nipun Garg: Mai toh vo dono ques ke main main keywords yaad karna ka soch raha hn vaise
+17/04/23, 2:36 pm - Ekam 🤍: Ok
+17/04/23, 3:01 pm - Ekam 🤍: 4-6 gd karwaya hai
+17/04/23, 3:01 pm - Ekam 🤍: Me bhi aau ga
+17/04/23, 3:05 pm - Nipun Garg: Tuna??
+17/04/23, 3:05 pm - Ekam 🤍: Jitesh bol rhaa
+17/04/23, 3:05 pm - Nipun Garg: Haa Maine bola usse
+17/04/23, 3:05 pm - Ekam 🤍: Tu lib nahi betha
+17/04/23, 3:05 pm - Nipun Garg: Tu formal daal kr gaya ha??
+17/04/23, 3:05 pm - Ekam 🤍: Bhai shirt coat hai
+17/04/23, 3:05 pm - Nipun Garg: Nahi room mai hun
+17/04/23, 3:05 pm - Ekam 🤍: Tumhare pass
+17/04/23, 3:06 pm - Nipun Garg: Nahi
+17/04/23, 3:06 pm - Ekam 🤍: Naa
+17/04/23, 3:06 pm - Ekam 🤍: Ye meri almari se
+17/04/23, 3:06 pm - Nipun Garg: Yrr plain white shirt chahiye
+17/04/23, 3:06 pm - Ekam 🤍: Light blue wali shirt hogi
+17/04/23, 3:06 pm - Ekam 🤍: Vo nikal le
+17/04/23, 3:06 pm - Ekam 🤍: Formal si dikhti
+17/04/23, 3:06 pm - Ekam 🤍: Achaa
+17/04/23, 3:06 pm - Ekam 🤍: Mere pass vo anhi
+17/04/23, 3:06 pm - Nipun Garg: Tera pas plain white nahi hai koi?
+17/04/23, 3:06 pm - Nipun Garg: Okk
+17/04/23, 3:07 pm - Ekam 🤍: Nhi
+17/04/23, 3:07 pm - Nipun Garg: Karvata hun pta 
+Plain white mai soch raha nahi toh teri blue le aaunga
+17/04/23, 3:07 pm - Ekam 🤍: Acha
+17/04/23, 3:07 pm - Ekam 🤍: Thik hai
+17/04/23, 4:57 pm - Nipun Garg: 3) impact of covid in office life
+
+The COVID-19 pandemic has had a significant impact on office life in numerous ways. With the outbreak of the pandemic, many companies were forced to adapt to new remote work policies, which allowed employees to work from home to reduce the spread of the virus.
+
+Remote work has become the new normal for many companies, and it has been both positive and negative for employees. On the one hand, it has given employees more flexibility, eliminated long commutes, and allowed for a better work-life balance. On the other hand, remote work has also blurred the boundaries between work and personal life, making it challenging to switch off from work and causing feelings of isolation and burnout.
+
+Additionally, the pandemic has highlighted the need for better office hygiene and safety measures. Companies have had to implement new protocols such as social distancing, regular sanitation, and improved ventilation systems to ensure the safety of their employees. This has resulted in changes to office layouts, the provision of personal protective equipment, and the increased use of technology for communication.
+
+Overall, the pandemic has brought about significant changes to office life, and it remains to be seen how these changes will impact the workplace in the long term. However, it has also created new opportunities for companies to innovate and adapt to new ways of working, which may have positive impacts on employee well-being and business operations.
+17/04/23, 4:57 pm - Nipun Garg: Que-problems faced by you in a project
+
+I recently participated in a global hackathon organized by the society, and it was an incredible experience! We made a website that will predict the disease by taking symptoms and also a smart inventory system using LSTM.
+Common challenges were encountered while working on a it was firstly we were not able to find the proper dataset for that reason we got very less accuracy.  Accurate data was found to be crucial for developing an effective detection algorithm, but it was difficult to obtain. Additionally, technical difficulties such as bugs and compatibility issues were faced, which caused delays in the project's progress.
+
+Ensuring that the website is user-friendly and engaging can also be a significant challenge. It is essential to make the website easy to navigate and understand for users, with results presented in a clear and understandable way. 
+Although we didn't win the hackathon, I feel extremely proud of what we accomplished and gained experience.These are issues that many projects encounter, and finding ways to overcome them is critical for the project's success.
+17/04/23, 4:57 pm - Nipun Garg: "In 5 years, I see myself as a highly skilled software developer working for this technical company. I'm excited about the opportunity to work with the latest technologies and to contribute to the development of innovative software solutions. I hope to take on a leadership role within the company's development team, where I can use my skills to help drive projects forward. To achieve my long-term goals, I plan to stay current with the latest developments in software development by pursuing professional development opportunities, taking relevant courses, and seeking mentorship from experienced developers within the company."
+17/04/23, 4:57 pm - Nipun Garg: Not qualifying for JEE advanced and not being able to get into IIT was a significant setback for me. It was a challenging time that left me feeling shattered and discouraged. However, I was determined to handle the situation calmly and focus on my career goals.
+
+Despite the disappointment, I realized that failure is not final and can be a learning opportunity. Instead of thinking back again and again on wh/at could have been, I chose to stay motivated and explore alternative academic programs and career paths that aligned with my interests and strengths.
+
+I learned that success is not solely defined by attending a specific institution or achieving a particular goal. Instead, it's about personal growth, happiness, and fulfilment. By staying positive and working hard, I continued to learn and grow, becoming more dedicated to my career goals than ever before.
+17/04/23, 4:57 pm - Nipun Garg: This message was deleted
+18/04/23, 10:54 am - Nipun Garg: Kahan pe hai??
+18/04/23, 11:09 am - Ekam 🤍: Room me
+18/04/23, 11:16 am - Nipun Garg: Lib aaega??
+18/04/23, 11:21 am - Ekam 🤍: Lunch ke ke
+18/04/23, 11:30 am - Nipun Garg: Okk
+18/04/23, 11:30 am - Nipun Garg: Mai lib betha tha
+18/04/23, 11:30 am - Nipun Garg: Ishika idar hi thi toh Maine msg Kiya tha
+18/04/23, 11:33 am - Ekam 🤍: Ese hi aayi hogi thori der ke liye
+18/04/23, 11:33 am - Ekam 🤍: Ab me to 12:30 tak aau ga
+18/04/23, 11:35 am - Nipun Garg: Okk
+18/04/23, 3:28 pm - Ekam 🤍: import cv2
+
+# Load the pre-trained Haar Cascade face detection classifier
+face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + "haarcascade_frontalface_default.xml")
+
+# Initialize the video capture object using the default webcam
+cap = cv2.VideoCapture(0)
+
+# Loop until the user presses the "q" key
+while True:
+    # Read the frame from the video capture object
+    ret, frame = cap.read()
+
+    # Convert the frame to grayscale
+    gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
+
+    # Detect faces in the grayscale image
+    faces = face_cascade.detectMultiScale(gray, scaleFactor=1.1, minNeighbors=5)
+
+    # Draw rectangles around the detected faces
+    for (x, y, w, h) in faces:
+        cv2.rectangle(frame, (x, y), (x+w, y+h), (0, 255, 0), 2)
+
+    # Show the image with the detected faces
+    cv2.imshow('Face Detection', frame)
+
+    # Exit the loop if the user presses the "q" key
+    if cv2.waitKey(1) & 0xFF == ord('q'):
+        break
+
+# Release the video capture object and close all windows
+cap.release()
+cv2.destroyAllWindows()
+18/04/23, 3:28 pm - Ekam 🤍: import cv2
+
+# Load the video file
+cap = cv2.VideoCapture('C:\\Users\\Deepak Bansal\\Downloads\\abc.mp4')
+
+# Create a face detection cascade classifier
+#face_cascade = cv2.CascadeClassifier('path/to/haarcascade_frontalface_default.xml')
+face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + "haarcascade_frontalface_default.xml")
+
+while cap.isOpened():
+    # Read the frame from the video
+    ret, frame = cap.read()
+    
+    # Stop if there are no more frames to read
+    if not ret:
+        break
+    
+    # Resize the frame to a smaller size
+    frame = cv2.resize(frame, (0, 0), fx=0.5, fy=0.5)
+    
+    # Convert the frame to grayscale
+    gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
+    
+    # Detect faces in the grayscale frame
+    faces = face_cascade.detectMultiScale(gray, scaleFactor=1.1, minNeighbors=5, minSize=(30, 30))
+    
+    # Draw a rectangle around each face in the original frame
+    for (x, y, w, h) in faces:
+        cv2.rectangle(frame, (x, y), (x+w, y+h), (0, 255, 0), 2)
+    
+    # Display the resulting frame with detected faces
+    cv2.imshow('frame', frame)
+    
+    # Exit if the 'q' key is pressed
+    if cv2.waitKey(1) & 0xFF == ord('q'):
+        break
+
+# Release the video capture and destroy all windows
+cap.release()
+cv2.destroyAllWindows()
+18/04/23, 7:35 pm - Nipun Garg: class Solution {
+public:
+    vector<int> getAverages(vector<int>& nums, int k) {
+        if(k==0){
+            return nums;
+        }    
+        int l=nums.size();
+        vector<int>ans(l,-1);
+        // if(k>l){
+        //     return ans;
+        // }
+        // long long sum=0;
+        // for(int i=0;i<k;i++){
+        //     sum=sum+nums[i];
+        // }
+        // // cout<<sum<<"first"<<endl;
+        // for(int i=k;i<nums.size()-k;i++){
+        //     sum=sum+nums[i];
+        //     // cout<<sum<<"num"<<endl;
+        //     for(int j=i+1;j<i+k+1;j++){
+        //         sum=sum+nums[j];
+        //     }
+        //     // cout<<sum<<"after"<<endl;
+        //     ans[i]=sum/(2*k+1);
+        //     // cout<<ans[i]<<endl;
+        //     sum=0;
+        //     for(int j=i-k+1;j<i+1;j++){
+        //         sum=sum+nums[j];
+        //     }
+        // }
+        // return ans;
+        if(2*k+1>l){
+            return ans;
+        }
+
+        int i=k;
+        long long sum=0;
+        for(int j=0;j<2*k+1;j++){
+            sum+=nums[j];
+        }
+        cout<<sum<<endl;
+        int count=0;
+        for(int j=2*k;j<l;j++){
+            // sum=sum+nums[j];
+            ans[i]=sum/(2*k+1);
+            if(i<l){
+                i++;
+            }
+            sum=sum-nums[count];
+            count++;
+            if(j+1<l){
+                sum=sum+nums[j+1];
+            }
+        }
+        return ans;
+    }
+};
+18/04/23, 10:34 pm - Ekam 🤍: Mujhe kitne paise Dene naan panner ke
+19/04/23, 12:29 am - Nipun Garg: <Media omitted>
+19/04/23, 12:29 am - Nipun Garg: <Media omitted>
+19/04/23, 12:29 am - Nipun Garg: <Media omitted>
+19/04/23, 12:29 am - Nipun Garg: <Media omitted>
+19/04/23, 12:29 am - Nipun Garg: <Media omitted>
+19/04/23, 12:29 am - Nipun Garg: <Media omitted>
+19/04/23, 11:27 am - Nipun Garg: Viva ka ques note kar lena bta dena mujhaa
+19/04/23, 11:29 am - Ekam 🤍: Qcha
+19/04/23, 5:35 pm - Ekam 🤍: ...
+19/04/23, 5:36 pm - Nipun Garg: 1e0
+19/04/23, 5:36 pm - Nipun Garg: 130
+19/04/23, 6:21 pm - Nipun Garg: https://github.com/khushipr/Parameter_Optimization_of_SVM
+25/04/23, 7:07 pm - Nipun Garg: Missed video call
+28/04/23, 10:48 pm - Ekam 🤍: https://github.com/amanjeetsahu/Natural-Language-Processing-Specialization
+29/04/23, 11:34 pm - Ekam 🤍: <Media omitted>
+29/04/23, 11:35 pm - Nipun Garg: <Media omitted>
+29/04/23, 11:57 pm - Nipun Garg: <Media omitted>
+30/04/23, 7:02 pm - Nipun Garg: <Media omitted>
+30/04/23, 7:27 pm - Ekam 🤍: <Media omitted>
+30/04/23, 7:36 pm - Ekam 🤍: Hamari python file ka model name kya bne ha
+30/04/23, 7:37 pm - Ekam 🤍: <Media omitted>
+30/04/23, 7:43 pm - Ekam 🤍: https://forms.gle/5LmfLfVgogABbDyh7
+
+
+Abhi bharo
+Very important!
+30/04/23, 7:43 pm - Ekam 🤍: Please Read it once and show your interest saying yes for this
+30/04/23, 7:43 pm - Ekam 🤍: Answer 
+Yes to everything
+1 to 8 checkbox all
+More than 20k
+02/05/23, 6:31 pm - Nipun Garg: OT ki file bhejio combined
+02/05/23, 6:59 pm - Ekam 🤍: <Media omitted>
+02/05/23, 6:59 pm - Ekam 🤍: <Media omitted>
+03/05/23, 9:13 pm - Nipun Garg: <Media omitted>
+03/05/23, 9:13 pm - Nipun Garg: <Media omitted>
+03/05/23, 9:13 pm - Nipun Garg: <Media omitted>
+04/05/23, 9:40 am - Ekam 🤍: <Media omitted>
+04/05/23, 9:41 am - Ekam 🤍: Ye jada achi nhi hai
+04/05/23, 9:59 am - Nipun Garg: Yeah kahan ki hai ab
+04/05/23, 10:08 am - Ekam 🤍: Pouch kar bta dunga
+04/05/23, 11:52 am - Ekam 🤍: Yr ye ek grp bna hua 1,2 yr ka. Vo late hai aur viral karte
+04/05/23, 11:53 am - Ekam 🤍: Ye thapr ki hai
+04/05/23, 4:43 pm - Nipun Garg: <Media omitted>
+04/05/23, 4:44 pm - Nipun Garg: Phone kar lena mujha print out se phele
+04/05/23, 6:37 pm - Nipun Garg: 098155 90985
+05/05/23, 11:35 am - Nipun Garg: https://drive.google.com/drive/folders/1OS3wDnhmePteG63xcbZ9sa78pofcjoJP?usp=share_link
+06/05/23, 9:53 pm - Ekam 🤍: https://drive.google.com/drive/u/0/mobile/folders/1mG3Te4L-KXF03grDwodSXVbbnfnwED9f/1zil93xF421d8Q6lZizVMthcNCOe85Bwr?usp=sharing&sort=13&direction=a
+06/05/23, 10:54 pm - Ekam 🤍: <Media omitted>
+07/05/23, 1:04 pm - Nipun Garg: <Media omitted>
+12/05/23, 2:54 pm - Ekam 🤍: https://www.youtube.com/watch?v=6G_pXLTDnNQ&list=PLBhIctyfOJgApxx_FzhwxJoZsCl8AUk0t&index=72
+12/05/23, 7:05 pm - Nipun Garg: <Media omitted>
+12/05/23, 7:39 pm - Nipun Garg: <Media omitted>
+12/05/23, 7:39 pm - Nipun Garg: <Media omitted>
+12/05/23, 7:39 pm - Nipun Garg: <Media omitted>
+12/05/23, 7:39 pm - Nipun Garg: <Media omitted>
+12/05/23, 8:04 pm - Nipun Garg: https://www.youtube.com/playlist?list=PL0Ug_kpOStbouzs1xFgpH4SbxdkdRPcCy
+PDA
+12/05/23, 8:04 pm - Nipun Garg: https://www.youtube.com/playlist?list=PL0Ug_kpOStbo20AfvHk_k9QDAK1HVL9v1
+Turing Machine
+12/05/23, 8:04 pm - Nipun Garg: https://www.youtube.com/playlist?list=PL0Ug_kpOStbq-b4N1l46tZSl7l01rMzP8
+CFG
+12/05/23, 8:05 pm - Nipun Garg: https://youtu.be/Wc8iGBB8UyA
+12/05/23, 8:05 pm - Nipun Garg: https://youtu.be/rWhDj10EoEs
+13/05/23, 2:15 am - Nipun Garg: <Media omitted>
+15/05/23, 8:07 pm - Ekam 🤍: https://docs.google.com/spreadsheets/d/1ORZGT1e3vbNtpz5y79y-MWw98TsZbJZLgS7CxO5G7B4/edit#gid=364052254
+15/05/23, 9:00 pm - Nipun Garg: <Media omitted>
+16/05/23, 10:59 am - Nipun Garg: <Media omitted>
+17/05/23, 5:26 pm - Nipun Garg: Sunn
+17/05/23, 5:26 pm - Nipun Garg: Vo driver ke number bhejna 
+Jiska saath ham dharamshala gaye tha
+17/05/23, 5:43 pm - Ekam 🤍: Mcleodganj Taxi.vcf (file attached)
+18/05/23, 11:49 pm - Nipun Garg: <Media omitted>
+19/05/23, 7:27 pm - Nipun Garg: <Media omitted>
+21/05/23, 9:22 am - Ekam 🤍: <Media omitted>
+21/05/23, 9:33 am - Nipun Garg: <Media omitted>
+21/05/23, 5:31 pm - Ekam 🤍: <Media omitted>
+21/05/23, 5:31 pm - Nipun Garg: Haa
+21/05/23, 5:32 pm - Nipun Garg: Rcb vaala toh cancel hi hogi
+21/05/23, 5:32 pm - Nipun Garg: Hoga😕
+21/05/23, 5:45 pm - Ekam 🤍: 👾
+21/05/23, 6:22 pm - Ekam 🤍: <Media omitted>
+22/05/23, 10:27 pm - Nipun Garg: 2 bje
+22/05/23, 10:27 pm - Nipun Garg: Utha dena
+22/05/23, 10:27 pm - Nipun Garg: Jab kha lenga Maggie
+23/05/23, 10:58 pm - Nipun Garg: Room lock Mt karna
+23/05/23, 10:58 pm - Ekam 🤍: Ok
+23/05/23, 11:49 pm - Nipun Garg: 2 bje
+26/05/23, 1:08 pm - Ekam 🤍: #include <iostream>
+#include <vector>
+
+using namespace std;
+
+vector<long> bitwiseEquations(vector<long>& a, vector<long>& b) {
+    vector<long> result;
+    
+    for (int i = 0; i < a.size(); i++) {
+        long ai = a[i];
+        long bi = b[i];
+        
+        bool found_solution = false;
+        long x = 0;
+        
+        while (x <= ai) {
+            long y = ai - x;
+            if ((x ^ y) == bi) {
+                result.push_back(2 * x + 3 * y);
+                found_solution = true;
+                break;
+            }
+            x++;
+        }
+        
+        if (!found_solution) {
+            result.push_back(0);
+        }
+    }
+    
+    return result;
+}
+
+int main() {
+    int n;
+    cin >> n;
+    
+    vector<long> a(n);
+    for (int i = 0; i < n; i++) {
+        cin >> a[i];
+    }
+    
+    int m;
+    cin >> m;
+    
+    vector<long> b(m);
+    for (int i = 0; i < m; i++) {
+        cin >> b[i];
+    }
+    
+    vector<long> output = bitwiseEquations(a, b);
+    
+    for (int i = 0; i < output.size(); i++) {
+        cout << output[i] << endl;
+    }
+    
+    return 0;
+}
+26/05/23, 1:42 pm - Nipun Garg: <Media omitted>
+26/05/23, 1:42 pm - Nipun Garg: <Media omitted>
+26/05/23, 1:57 pm - Nipun Garg: <Media omitted>
+26/05/23, 2:22 pm - Nipun Garg: <Media omitted>
+31/05/23, 12:46 pm - Ekam 🤍: Congratulations Yashika for raising the bar so high... 99/100 👍🏻... There are 4 students having more than 90 marks. Kindly 🙏🏻don't call for asking grade cut off  criteria... Have no idea...
+31/05/23, 12:46 pm - Ekam 🤍: Ek ladki ke 99
+31/05/23, 1:06 pm - Nipun Garg: Subject?
+31/05/23, 1:13 pm - Ekam 🤍: Ot
+31/05/23, 2:05 pm - Nipun Garg: 😮
+31/05/23, 2:05 pm - Nipun Garg: Fer toh apne A nahi aata
+31/05/23, 2:05 pm - Nipun Garg: Innovation mai kitne aaye
+31/05/23, 2:27 pm - Ekam 🤍: 85 nahi tappe ?
+31/05/23, 2:28 pm - Ekam 🤍: Est 35, TTL 79
+31/05/23, 2:28 pm - Ekam 🤍: Ot77?5
+31/05/23, 2:28 pm - Ekam 🤍: Ot 77.5
+31/05/23, 2:28 pm - Ekam 🤍: Toc 52.5
+31/05/23, 2:30 pm - Ekam 🤍: NLP 23.5 +22=45.5 + ..... /35
+31/05/23, 2:30 pm - Nipun Garg: Ot 85
+Toc 65
+Ie 73
+31/05/23, 2:31 pm - Ekam 🤍: 85 par to A
+31/05/23, 2:32 pm - Ekam 🤍: Mujhe 77.5 kya mile ga ?
+01/06/23, 4:12 pm - Nipun Garg: Tumrahe micro ka marks aa gaye?
+01/06/23, 4:21 pm - Ekam 🤍: Nhi
+01/06/23, 5:42 pm - Ekam 🤍: Aa gye hamara
+01/06/23, 5:42 pm - Ekam 🤍: Par Mera khul nhi rha
+01/06/23, 6:32 pm - Nipun Garg: Nahi khula?
+01/06/23, 6:32 pm - Nipun Garg: Mera toh yrr 7.5 aaye bas🙃
+01/06/23, 6:33 pm - Ekam 🤍: Nhi ab to khul gya tha
+01/06/23, 6:33 pm - Ekam 🤍: 28 cg ,21 micro
+01/06/23, 6:34 pm - Ekam 🤍: Lgta micro me.kre hue and galat hue kuch
+01/06/23, 6:37 pm - Nipun Garg: Cg nahi aaye hmre
+01/06/23, 6:37 pm - Nipun Garg: Micro mai toh Mera 7.5 aaye
+01/06/23, 6:37 pm - Ekam 🤍: Hm smaj rha
+01/06/23, 6:38 pm - Nipun Garg: Cg bhi mera vaise kmm aana
+01/06/23, 6:38 pm - Nipun Garg: 🙃🙃
+01/06/23, 6:38 pm - Nipun Garg: Micro total kitne bne tera
+01/06/23, 6:39 pm - Ekam 🤍: 60
+01/06/23, 6:40 pm - Ekam 🤍: Cg 58/90
+01/06/23, 6:44 pm - Nipun Garg: 40 micro
+01/06/23, 6:45 pm - Ekam 🤍: Sab est ki wajah se hua
+01/06/23, 6:45 pm - Ekam 🤍: Tear
+01/06/23, 6:45 pm - Ekam 🤍: Tera*
+02/06/23, 4:07 pm - Ekam 🤍: 49.5 aaye ds me
+02/06/23, 4:10 pm - Ekam 🤍: 63.325 mere
+02/06/23, 4:10 pm - Ekam 🤍: Total
+02/06/23, 4:18 pm - Ekam 🤍: Abhi 5 number pda predictive ka
+02/06/23, 4:38 pm - Nipun Garg: 67 aaye mera
+02/06/23, 4:38 pm - Nipun Garg: Yeah Rana Vala ke bol raha?
+02/06/23, 4:40 pm - Ekam 🤍: Haa
+02/06/23, 4:40 pm - Nipun Garg: Nlp ke bhi aa gaye hmre
+02/06/23, 4:40 pm - Nipun Garg: Mera 22 aaye 25 mai se
+02/06/23, 4:40 pm - Nipun Garg: Abhi 10 pending hai 
+Vo shyd coursera vgara ke honge
+02/06/23, 4:41 pm - Ekam 🤍: Samj rha
+02/06/23, 4:54 pm - Ekam 🤍: Smae
+02/06/23, 4:54 pm - Ekam 🤍: Jo dusra wala hai usme tujhe 4 ya 5 hi mile ge
+02/06/23, 4:54 pm - Ekam 🤍: Mere 4 hai
+02/06/23, 4:55 pm - Ekam 🤍: Sabko same marks distribution mile hai NLP ki 35 me
+02/06/23, 4:57 pm - Nipun Garg: Mera 64.25
+02/06/23, 4:57 pm - Ekam 🤍: Kisme ?
+02/06/23, 4:57 pm - Nipun Garg: Nlp
+02/06/23, 4:58 pm - Ekam 🤍: Ye abhi tere 90 mese ?
+02/06/23, 4:58 pm - Ekam 🤍: Mere 71.5 hai mere NLP me total
+02/06/23, 4:58 pm - Nipun Garg: Haan
+02/06/23, 4:58 pm - Nipun Garg: Tumrahe 10 mai se kitne aaye
+02/06/23, 4:58 pm - Ekam 🤍: 4 mile
+02/06/23, 4:58 pm - Ekam 🤍: Mere subgrp ko
+02/06/23, 5:00 pm - Nipun Garg: Ok
+02/06/23, 5:01 pm - Nipun Garg: Yeah konse hai?
+02/06/23, 5:01 pm - Ekam 🤍: Pta ni yr kis bais par 4 number mile
+02/06/23, 5:01 pm - Ekam 🤍: <Media omitted>
+02/06/23, 5:01 pm - Nipun Garg: Agar Sabke same ha to Farak nhi pdta
+02/06/23, 5:02 pm - Ekam 🤍: Predictive me , vaise webkiosk par 50 likhe hue 49.5 ki jagah
+02/06/23, 5:02 pm - Nipun Garg: Yeah Tera Kitna mai ha
+02/06/23, 5:02 pm - Ekam 🤍: 100 mese
+02/06/23, 5:03 pm - Ekam 🤍: Mere total abhi 63.5 hai 95 mese
+02/06/23, 5:03 pm - Ekam 🤍: Predictive me
+02/06/23, 5:04 pm - Ekam 🤍: Nipun mere NLP me 2 number bhade est me recheck par pehle 23.5 the ab 25.5
+02/06/23, 5:04 pm - Nipun Garg: BDIYAA
+02/06/23, 5:05 pm - Ekam 🤍: <Media omitted>
+02/06/23, 5:05 pm - Ekam 🤍: Final
+02/06/23, 5:06 pm - Nipun Garg: Mera pred 76 ha
+08/06/23, 9:23 pm - Ekam 🤍: https://chat.whatsapp.com/GhS1RbgoY43AbNy599TfeP
+08/06/23, 9:30 pm - Nipun Garg: Kya hai yeah
+08/06/23, 9:30 pm - Ekam 🤍: Kya pta
+08/06/23, 9:40 pm - Nipun Garg: Okk
+08/06/23, 9:47 pm - Ekam 🤍: Aur vi
+08/06/23, 9:47 pm - Ekam 🤍: Tera to kl bday hai 🥳
+08/06/23, 9:47 pm - Ekam 🤍: Kha par mna rha bday
+09/06/23, 12:03 am - Ekam 🤍: Happy Birthday nipun bro 🥳❣️🥰😊🥳✨🎉💥🌶️🥮🍰🍫.
+09/06/23, 6:01 am - Nipun Garg: 🙄🙄
+09/06/23, 6:01 am - Nipun Garg: Ghar pe bhi nashe karne nhi choda tuna
+09/06/23, 7:19 am - Ekam 🤍: Oh mein samj gya
+09/06/23, 7:19 am - Ekam 🤍: 9 Jan , 9 Jun , a aur n ka diff hai
+09/06/23, 7:30 am - Ekam 🤍: u*
+09/06/23, 10:07 am - Nipun Garg: 🤦‍♂️🤦‍♂️
+09/06/23, 11:14 am - Ekam 🤍: <Media omitted>
+09/06/23, 12:59 pm - Ekam 🤍: <Media omitted>
+09/06/23, 4:41 pm - Nipun Garg: 😂😂
+09/06/23, 4:41 pm - Nipun Garg: Yeah mujha exam mai hi hote vo bhi kabhi kabhi
+09/06/23, 4:42 pm - Nipun Garg: Just chill 😎
+09/06/23, 4:55 pm - Ekam 🤍: <Media omitted>
+09/06/23, 4:55 pm - Ekam 🤍: Smaj rha
+10/06/23, 11:33 am - Ekam 🤍: <Media omitted>
+10/06/23, 11:33 am - Ekam 🤍: <Media omitted>
+10/06/23, 11:50 am - Nipun Garg: Abhi chal nahi raha webkios??
+10/06/23, 11:52 am - Ekam 🤍: Kholte hai
+10/06/23, 11:52 am - Ekam 🤍: Reh*
+10/06/23, 11:52 am - Ekam 🤍: Himmat mat har
+10/06/23, 11:53 am - Nipun Garg: Nahi chal raha
+10/06/23, 11:57 am - Nipun Garg: Micro mai tera 60 pe B hai
+Mai kahan jaunga 40 pe
+10/06/23, 11:58 am - Nipun Garg: Bakiyo ka idea hai kispe kahan lga hai?
+Mera webkios nahi chal raha
+10/06/23, 12:02 pm - Ekam 🤍: Nahi jaise jaise marks kaam hote hai
+10/06/23, 12:02 pm - Ekam 🤍: Marks ki range bhadte rehte grade Kam hone par
+10/06/23, 12:03 pm - Ekam 🤍: Mujhe bus avneet ne hi apne cg btaye thi uski 8.7 hai sg
+10/06/23, 12:09 pm - Nipun Garg: Okk
+10/06/23, 12:14 pm - Ekam 🤍: A-
+10/06/23, 12:14 pm - Ekam 🤍: 66 thaa total mera
+10/06/23, 12:14 pm - Ekam 🤍: Avneet ,micro
+10/06/23, 12:17 pm - Nipun Garg: 8.28 sg
+10/06/23, 12:18 pm - Nipun Garg: IE mai tera aur mera 5 marks ke differ hai aur mera 8 aaya usme
+Baki sab theek hai marks ke according
+10/06/23, 12:18 pm - Nipun Garg: Micro mera C aaya
+10/06/23, 12:19 pm - Nipun Garg: Overall 8.33
+Phele 8.34 the mera
+10/06/23, 12:19 pm - Ekam 🤍: Ok
+10/06/23, 12:19 pm - Ekam 🤍: <Media omitted>
+10/06/23, 12:20 pm - Ekam 🤍: Do bar sticker bhej diya
+10/06/23, 12:21 pm - Ekam 🤍: Ye same jitesh ki bhi hai
+10/06/23, 12:25 pm - Nipun Garg: Meri cg iss liye Bach gai
+10/06/23, 12:25 pm - Nipun Garg: Mera 2 mai A aaya
+10/06/23, 12:25 pm - Nipun Garg: Ot aur pred
+10/06/23, 12:30 pm - Ekam 🤍: Pred me B-
+10/06/23, 1:35 pm - Nipun Garg: Tera 66.5 hai mera 81 hai
+10/06/23, 1:40 pm - Ekam 🤍: Smaj rha
