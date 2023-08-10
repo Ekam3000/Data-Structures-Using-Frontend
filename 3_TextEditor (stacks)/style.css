@@ -2,7 +2,6 @@ html,
 body {
     height: 100%;
 }
-
 .text_box {
     width: 50%;
     height: 100%;
@@ -11,7 +10,6 @@ body {
     flex-wrap: wrap;
     align-content: center;
 }
-
 #container{
     width: 100%;
     height: 70%;
@@ -19,13 +17,10 @@ body {
     display: flex;
     margin: 0 auto;
 }
-
 #undo{
     margin:auto;
     display:block;
 }
-
-
 #clear{
     margin:auto;
     display:block;

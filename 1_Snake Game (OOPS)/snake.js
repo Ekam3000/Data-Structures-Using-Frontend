@@ -8,7 +8,6 @@ function init(){
 	// console.log(canvas); // to check if we are able to get our canvas or not
 	W = H = canvas.width = canvas.height = 1000;
 	pen = canvas.getContext('2d'); // to draw something on the canvas in 2-D contexts
-	// to draw something on the canvas in 2-D contexts
 	// once we have a pen object .. we can draw anything on the canvas 
 	// pen-> canvasRenderContext2D
 	
@@ -37,7 +36,6 @@ function init(){
 			}
 		},
 		drawSnake:function(){
-
 			for(var i=0;i<this.cells.length;i++){
 				pen.fillStyle = this.color; // to draw a sanke with the blue color
 				pen.fillRect(this.cells[i].x*cs,this.cells[i].y*cs,cs-3,cs-3); // one by one a rectangle is drawn
@@ -63,8 +61,7 @@ function init(){
 			}
 
             // so we will firstly find out the nextX, nextY direction
-			
-			
+		
 			var nextX,nextY;
 			if(this.direction=="right"){
 				nextX = headX + 1;
@@ -96,7 +93,6 @@ function init(){
 				game_over = true;
 			}
 		}
-
 	};
 	snake.createSnake();
 	//Add a Event Listener on the Document Object
@@ -104,8 +100,6 @@ function init(){
 		//object e is matadata about the event that is passed to keyPressed . it give us some information 
 
 		//console.log("key Pressed",e.key);
-
-
 		//Conditional Statments
 		if(e.key=="ArrowRight"){
 			snake.direction = "right";
@@ -148,9 +142,7 @@ function draw(){
     // to draw a circle 
 	// pen.arc(60,60,50,0,2*Math.PI);
 	//pen.stroke();
-	
 }
-
 function update(){
 	//console.log("In Update");
 	snake.updateSnake(); 
@@ -188,7 +180,6 @@ function gameloop(){
 init();// init function is used when we have to apply the changes only once . is called only once during start
 
 var f = setInterval(gameloop,100); // the gameloop function called for 100 times 
-
 
 // for breaking the infinite interval of moving rect/snake do this in console->
 //clearInterval(f) 

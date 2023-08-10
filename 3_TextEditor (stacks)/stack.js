@@ -43,7 +43,7 @@ class Stack{
                 let top = this.pop();
                 top[1] = char + top[1];
                 this.stack.push(top);
-            } else{
+            } else{ 
                 this.stack.push([type, char]);
             }
         }
